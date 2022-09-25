@@ -4,7 +4,7 @@ li {
     border-radius: 5px;
     padding: 1rem;
     margin: 1rem;
-    margin-left: -3rem;
+    margin-left: -5.5rem;
     margin-right: -0.5rem;
 }
 
@@ -24,7 +24,7 @@ input {
 
 .actions button {
     padding: 0.5rem;
-    width: 39%;
+    width: 35%;
     margin: 0.5rem;
     font-family: inherit;
     cursor: pointer;

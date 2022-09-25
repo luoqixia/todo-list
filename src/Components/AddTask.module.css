@@ -1,5 +1,5 @@
 .newtaskbox {
-    width: auto; 
+    width: 100%; 
     /* why does this make the textbox shorter in width? */
     height: 3rem;
     font-size: 2rem;

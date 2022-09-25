@@ -15,5 +15,6 @@ body {
   font-size: 1.5rem;
   font-family: 'Quicksand', sans-serif;
   text-align: center;
-  color: darkslategrey
+  color: darkslategrey;
+  width: 20rem;
 }
