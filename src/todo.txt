@@ -18,3 +18,11 @@ Things to work on
 - customizable background
 - animations
 - change color scheme
+- optimize code using lazy loading, etc
+- upgrade to productivity website with multiple "pages" using routes (inspired by notion)
+- page for note-taking
+- cool animation for welcome page
+- budget page
+- timetable
+- quotes/inspiration page
+- relax/gaming page (quizzes?)

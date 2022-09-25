@@ -7,7 +7,6 @@ const AddTask = () => {
     const dispatch = useDispatch();
     const newTaskRef = useRef();
     const quantity = useSelector(state => state.tasks.quantity);
-    const items = useSelector(state => state.tasks.tasks);
 
     const submitHandler = (event) => {
         event.preventDefault();
