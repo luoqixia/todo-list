@@ -1,0 +1,28 @@
+.newtaskbox {
+    width: auto; 
+    /* why does this make the textbox shorter in width? */
+    height: 3rem;
+    font-size: 2rem;
+    border-radius: 2px;
+}
+
+.buttoncontainer {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.button {
+    width: 100%;
+    background-color: darkslategrey;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-radius: 2px;
+}
+
+.button:hover {
+    color: darkslategrey;
+    background-color: lightgray;
+}

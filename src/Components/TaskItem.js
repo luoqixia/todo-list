@@ -3,11 +3,11 @@ import classes from './TaskItem.module.css';
 const TaskItem = (props) => {
     return (
         <li>
-            <input type="checkbox" id="item"></input>
-            <label htmlFor="item">{props.title}</label>
-            <div class="item-actions">
-              <button type="button">Edit</button>
-              <button type="button">Delete</button>
+            <label htmlFor="item" className={classes.label}>{props.title}</label>
+            <div className={classes.actions}>
+              <input type="checkbox" id="item"></input>
+              <button type="button" className={classes.edit}>Edit</button>
+              <button type="button" className={classes.delete}>Delete</button>
             </div>
         </li>
     );

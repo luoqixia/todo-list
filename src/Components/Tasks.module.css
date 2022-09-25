@@ -1,0 +1,22 @@
+.button {
+    border: 1px lightgrey solid;
+    padding: 0.5rem;
+    margin: 0 2%;
+    width: 28%;
+    font-family: inherit;
+    color: inherit;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: darkslategrey;
+    color: white;
+}
+
+.tasks ul {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+}
