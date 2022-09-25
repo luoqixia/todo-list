@@ -1,0 +1,20 @@
+Things to work on 
+=================
+
+- prevent user from typing too long of a task
+- add delete functionality
+- edit functionality
+- number of tasks remaining
+- emojis
+- flavicon
+- dynamic status
+- status badge on the task items
+- in progress / completed checkboxes in task items
+- rate how well a task is done when marking as completed
+- filters
+- backend to store user data
+- login page
+- calendar 
+- customizable background
+- animations
+- change color scheme
