@@ -1,3 +1,5 @@
+import TaskItem from './Components/TaskItem';
+
 function App(props) {
   return (
     <div className="todoapp">
@@ -17,30 +19,9 @@ function App(props) {
       <div class="tasks">
         <h2>3 Tasks Remaining</h2>
         <ul>
-          <li>  
-            <input type="checkbox" id="item1"></input>
-            <label htmlFor="item1">Eat</label>
-            <div class="item-actions">
-              <button type="button">Edit</button>
-              <button type="button">Delete</button>
-            </div>
-          </li>
-          <li>
-            <input type="checkbox" id="item1"></input>
-            <label htmlFor="item1">Eat</label>
-            <div class="item-actions">
-              <button type="button">Edit</button>
-              <button type="button">Delete</button>
-            </div>
-          </li>
-          <li>
-            <input type="checkbox" id="item1"></input>
-            <label htmlFor="item1">Eat</label>
-            <div class="item-actions">
-              <button type="button">Edit</button>
-              <button type="button">Delete</button>
-            </div>
-          </li>
+          <TaskItem title="Eat" />
+          <TaskItem title="Sleep" />
+          <TaskItem title="Repeat" />
         </ul>
       </div>
     </div>
