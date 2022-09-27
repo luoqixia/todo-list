@@ -2,11 +2,10 @@ Things to work on
 =================
 
 - prevent user from typing too long of a task
-- add delete functionality
+- add delete all functionality 
 - edit functionality
 - number of tasks remaining
 - emojis
-- flavicon
 - dynamic status
 - status badge on the task items
 - in progress / completed checkboxes in task items
