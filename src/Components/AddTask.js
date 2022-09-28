@@ -18,7 +18,6 @@ const AddTask = () => {
                 'Content-Type': 'application/json',
             },
         });
-        console.log(response.json());
     }
 
     const submitHandler = (event) => {
