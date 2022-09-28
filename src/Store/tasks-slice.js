@@ -20,7 +20,7 @@ const taskSlice = createSlice({
             state.quantity --;
             const taskToRemove = action.payload;
             state.tasks = state.tasks.filter((item) => item.id !== taskToRemove.id);
-        }
+        },
     }
 })
 

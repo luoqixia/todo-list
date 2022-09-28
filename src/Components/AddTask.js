@@ -11,15 +11,15 @@ const AddTask = () => {
     const quantity = useSelector(state => state.tasks.quantity);
 
     const postTask = async (task) => {
-        const response = await fetch(`${FIREBASE_DOMAIN}/tasks/${task.id}.json`, {
+        const response = await fetch(`${FIREBASE_DOMAIN}/tasks/main.json`, {
             method: 'POST',
             body: JSON.stringify({ title: task.title, status: task.status }),
             headers: {
                 'Content-Type': 'application/json',
             },
         });
+        console.log(response.json());
     }
-
 
     const submitHandler = (event) => {
         event.preventDefault();

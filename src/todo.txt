@@ -2,6 +2,8 @@ Things to work on
 =================
 
 - prevent user from typing too long of a task
+- delete task from backend
+- save deleted tasks but do not fetch it when app loads unless user explicitly says otherwise
 - add delete all functionality 
 - edit functionality
 - number of tasks remaining

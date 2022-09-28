@@ -1,16 +1,7 @@
 import classes from './Tasks.module.css';
-import { useEffect } from 'react';
-const FIREBASE_DOMAIN = "https://test-95985-default-rtdb.firebaseio.com/";
 
 const Tasks = (props) => {
-    const fetchTasks = async () => {
-
-    };
-
-    useEffect(() => {
-        fetchTasks();
-    }, []);
-
+   
     return (
         <div className={classes.container}>
             <div className="filter">
